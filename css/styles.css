@@ -1,0 +1,48 @@
+html{
+    font-size:62.5%;
+    box-sizing: border-box;
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+body{
+    font-size:1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration:none;
+}
+/* header */
+.header{
+    height: 6rem;
+}
+.navegacion{
+    height: inherit;
+    display: flex;
+    justify-content: flex-end;
+}
+.navegacion__list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    width: 25rem;
+    padding:0;
+}
+.navegacion__enlace{
+    color:black;
+    margin-right: 2rem;
+}
+.navegacion__icono{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.navegacion__foto{
+    display: block;
+    background-image: url('https://lh3.googleusercontent.com/ogw/ADGmqu-BKwe_56HBreznQqJfK_SUZ3cWhmaYwaeK9iU2=s32-c-mo');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 50%;
+}
