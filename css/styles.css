@@ -1,0 +1,150 @@
+html{
+    font-size:62.5%;
+    box-sizing: border-box;
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+body{
+    font-size:1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration:none;
+}
+/* header */
+.header{
+    height: 6rem;
+}
+.navegacion{
+    height: inherit;
+    display: flex;
+    justify-content: flex-end;
+}
+.navegacion__list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    width: 25rem;
+    padding:0;
+}
+.navegacion__enlace{
+    color:black;
+    margin-right: 2rem;
+}
+.navegacion__icono{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.navegacion__foto{
+    display: block;
+    background-image: url('https://lh3.googleusercontent.com/ogw/ADGmqu-BKwe_56HBreznQqJfK_SUZ3cWhmaYwaeK9iU2=s32-c-mo');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 50%;
+}
+/* Contenido principal */
+.main{
+    margin-top:15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main__logo{
+    max-width: 53rem;
+    margin: 0 0 3.5rem 0;
+}
+.formulario{
+    width: 53rem;
+}
+.formulario__conteniner{
+    border: 1px solid #dfe1e5;
+    border-radius: 10rem;
+    margin-bottom: 3.5rem;
+    width: 52.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formulario__conteniner:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+.formulario__lupa{
+    margin:0;
+}
+.campo{
+    border:none;
+    outline:none;
+    flex: 0 0 45rem;
+    height: 4rem;
+}
+.formulario__lupa,.formulario__microfono{
+    background-image: url('https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_search_48px-512.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+    width: 20px;
+    height: 20px;
+}
+.formulario__lupa{
+    background-image: url('https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_search_48px-512.png');
+    opacity: .6;
+}
+.formulario__microfono{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png');
+}
+.formulario-botones{
+    text-align: center;
+}
+.boton{
+    height: 36px;
+    background-color:#f2f2f2;
+    border:0;
+    font-size:14px;
+    color:#5f6368;
+    border-radius:5px;
+    padding: 0 15px;
+    margin-right: 15px;
+}
+.boton:hover{
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px #000001;
+    color: #222;
+}
+
+/* Footer */
+footer{
+    width: 100%;
+    height: 6rem;
+    position:absolute;
+    bottom: 0;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    padding: 0 2rem;
+    border-top: 1px solid #e4e4e4;
+    background-color: #f2f2f2;
+}
+.footer__derecho, .footer__izquierdo{
+    margin:0;
+    padding:0;
+    display: flex;
+    list-style: none;
+    column-gap: 1rem;
+}
+.footer__derecho{
+    justify-self: right;
+}
+.footer__izquierda{
+    justify-self: left;
+}
+.footer__enlace{
+    color:#5f6368;
+}
